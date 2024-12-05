@@ -168,7 +168,7 @@ function Services() {
             </ListItem>
             <ListItem title="Process">
               Our clients come to us with a requirement and we help them to understand it and solve it. We have 
-              a wealth of experience in undertanding workflow and can help you to streamline your processes.
+              a wealth of experience in understanding workflow and can help you to streamline your processes.
             </ListItem>
 
             <ListItem title="Management">
