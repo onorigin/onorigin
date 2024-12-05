@@ -53,7 +53,7 @@ function Clients() {
               <div className='text-white text-xl font-semibold'>An application to house high profile clients 
                 in the entertainment industry in exclusive private residences across the globe during film productions.
               </div>
-              <a href="/" className='mt-6 block text-white text-sm font-semibold hover:underline hover:underline-offset-3'>goldenticketlondon.com</a>
+              <a href="https://goldenticketlondon.co.uk" target="_blank" className='mt-6 block text-white text-sm font-semibold hover:underline hover:underline-offset-3'>goldenticketlondon.com</a>
             </div>
 
             <div>
