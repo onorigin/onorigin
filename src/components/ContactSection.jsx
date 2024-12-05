@@ -13,18 +13,18 @@ export function ContactSection() {
               Tell us about your project
             </h2>
             <div className="mt-6 flex">
-              <Button href="/contact" invert>
+              {/* <Button href="/contact" invert>
                 Say Hej
-              </Button>
+              </Button> */}
             </div>
             <div className="mt-10 border-t border-white/10 pt-10">
               <h3 className="font-display text-base font-semibold text-white">
-                Our offices
+                Please email us at services@onorigin.com <br></br> or call us on 01780 723060
               </h3>
-              <Offices
+              {/* <Offices
                 invert
                 className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
-              />
+              /> */}
             </div>
           </div>
         </div>

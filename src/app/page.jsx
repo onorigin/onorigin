@@ -18,6 +18,8 @@ import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
 import logoUnseal from '@/images/clients/unseal/logo-light.svg'
 import imageLaptop from '@/images/laptop.jpg'
+import imageOffice from '@/images/output.jpg'
+// import imageCogs from '@/images/floating-cogs2.svg'
 import { loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
@@ -137,7 +139,7 @@ function Services() {
     <>
       <SectionIntro
         eyebrow="Services"
-        title="We specialise in custom solutions to your business requirements."
+        title="We specialise in custom solutions to your business needs."
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
@@ -151,7 +153,7 @@ function Services() {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imageLaptop}
+                src={imageOffice}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
@@ -161,17 +163,17 @@ function Services() {
           <ListItem title="Application development">
               We have a proven track record of delivering high quality, bespoke
               applications in situations where confidentiality and discretion are
-              paramount. We've built a reputation in the creative industries such that our applications are
+              paramount. We&apos;ve built a reputation in the creative industries such that our applications are
               used everyday by people you will know.
             </ListItem>
             <ListItem title="Process">
               Our clients come to us with a requirement and we help them to understand it and solve it. We have 
               a wealth of experience in undertanding workflow and can help you to streamline your processes.
             </ListItem>
-          
+
             <ListItem title="Management">
-              Most of our projects are critical to our clients' businesses. We understand the importance of that, and
-              as such take the management of these projects in production very seriously. We pride ourselves on making sure
+              Most of our projects are critical to our clients&apos; businesses. We understand the importance of that, and
+              as such, take the management of these projects in production very seriously. We pride ourselves on making sure
               our systems are always secure and operational.
             </ListItem>
           </List>
@@ -214,7 +216,7 @@ export default async function Home() {
       >
         The team at OnOrigin are a pleasure to work with. They  
         always seem to have solutions for what we need.
-        Our clients need our discretion and confidentiality is important to us. We wouldn't trust anyone
+        Our clients need our discretion and confidentiality is important to us. We wouldn&apos;t trust anyone
         else with our business.
       </Testimonial>
 

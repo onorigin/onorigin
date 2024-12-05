@@ -52,7 +52,7 @@ function Header({
 
   return (
     <Container>
-      <div className="flex items-center justify-between">
+      {/* <div className="flex items-center justify-between">
         <Link
           href="/"
           aria-label="Home"
@@ -96,7 +96,7 @@ function Header({
             />
           </button>
         </div>
-      </div>
+      </div> */}
     </Container>
   )
 }
